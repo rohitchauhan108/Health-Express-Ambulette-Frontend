@@ -102,7 +102,7 @@ const Footer = () => {
         <p>
           ambulette transportation, wheelchair assistance, private ride NYC, medicaid pickup, safe travel
         </p>
-        <p className="mt-4">©2024 Health Express Ambulette Inc. All Rights Reserved.</p>
+        <p className="mt-4">©2026 Health Express Ambulette Inc. All Rights Reserved.</p>
       </div>
     </footer>
   );
