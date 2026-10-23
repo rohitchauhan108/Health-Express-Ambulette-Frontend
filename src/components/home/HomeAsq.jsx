@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import bgImage from "../../assets/Home/rescue-service-4975223_1920.jpg";
 
 const HomeAsq = () => {
@@ -17,7 +17,7 @@ const HomeAsq = () => {
       question: "How to start Ambulette service?",
       answer:
         "The process of getting a Non-emergency medical transportation ambulette service from Expert Ambulette Services:\n\n1) Call us now or schedule a callback\n\n2) Schedule a pickup for transportation\n\n3) Driver will call you 15 minutes prior to your pickup.\n\nContact us now for the most comfortable and reliable ambulette transportation service."
-    }
+    },
   ];
 
   return (
@@ -32,7 +32,7 @@ const HomeAsq = () => {
         </h1>
 
         <div className="max-w-4xl mx-auto space-y-6">
-          {faqData.map((item, index) => (
+          {faqData.slice(0,3).map((item, index) => (
             <details
               key={index}
               className="group bg-white shadow-md rounded-xl p-4 md:p-6 border-l-4 border-[#132870] transition-all duration-300"
@@ -48,6 +48,7 @@ const HomeAsq = () => {
               </p>
             </details>
           ))}
+          
         </div>
       </div>
     </div>

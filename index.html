@@ -1,17 +1,423 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Express Ambulette – NYC Ambulette & Medical Transport</title>
+    <meta
+      name="description"
+      content="Safe, reliable ambulette services NYC and medical transportation services NYC for doctor visits, hospital transfers, and non-emergency travel."
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Health Express Ambulette – NYC Ambulette & Medical Transport</title>
-  <meta name="description" content="Safe, reliable ambulette services NYC and medical transportation services NYC for doctor visits, hospital transfers, and non-emergency travel.">
-</head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HL92NE9D8K"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+      gtag("config", "G-HL92NE9D8K");
+    </script>
+    <!-- add schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://healthexpressambulette.com/#business",
+            "name": "Health Express Ambulette",
+            "url": "https://healthexpressambulette.com/",
+            "description": "Health Express Ambulette provides 24/7 ambulette, wheelchair, stretcher, dialysis, hospital discharge and doctor-visit transportation in New York City and Long Island.",
+            "telephone": "+1-917-514-3080",
+            "email": "info@healthexpressambulette.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "155 Water Street",
+              "addressLocality": "Brooklyn",
+              "addressRegion": "NY",
+              "postalCode": "11201",
+              "addressCountry": "US"
+            },
+            "foundingDate": "2014",
+            "knowsLanguage": ["en", "es", "ru", "ka", "fr"],
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "00:00",
+                "closes": "23:59"
+              }
+            ],
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "New York City"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Brooklyn, NY"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Manhattan, NY"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Queens, NY"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "The Bronx, NY"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Staten Island, NY"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Nassau County, NY"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Suffolk County, NY"
+              }
+            ],
+            "paymentAccepted": "Private Pay, Medicaid, Health Insurance, Cash, Credit Card, Debit Card",
+            "sameAs": [
+              "https://www.instagram.com/healthexpressambulette/",
+              "https://www.facebook.com/people/Health-Express-Ambulette/61584198666363/"
+            ],
+            "knowsAbout": [
+              "Ambulette transportation",
+              "Wheelchair transportation",
+              "Stretcher transportation",
+              "Dialysis transportation",
+              "Hospital discharge transportation",
+              "Medicaid ambulette",
+              "Non-emergency medical transportation"
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Medical Transportation Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@id": "https://healthexpressambulette.com/services/ambulette-services#service"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@id": "https://healthexpressambulette.com/services/private-medical-transportation#service"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@id": "https://healthexpressambulette.com/services/two-men-assist-over-stairs#service"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@id": "https://healthexpressambulette.com/services/medicaid-ambulette-service#service"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@id": "https://healthexpressambulette.com/services/wheelchair-handicapped-transportation#service"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://healthexpressambulette.com/services/ambulette-services#service",
+            "name": "Ambulette Services",
+            "serviceType": "Ambulette transportation",
+            "url": "https://healthexpressambulette.com/services/ambulette-services",
+            "description": "Health Express Ambulette provides door-to-door ambulette transportation for people who need more help than a taxi or rideshare can give. We transport wheelchair and stretcher passengers and ambulatory passengers who need assistance to dialysis, doctor visits, hospital discharges, chemotherapy and infusion centers, and more, 24 hours a day, 7 days a week, across New York City and Long Island.",
+            "provider": {
+              "@id": "https://healthexpressambulette.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "New York City"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Long Island, NY"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://healthexpressambulette.com/services/private-medical-transportation#service",
+            "name": "Private Medical Transportation",
+            "serviceType": "Private medical transportation",
+            "url": "https://healthexpressambulette.com/services/private-medical-transportation",
+            "description": "Private medical transportation from Health Express Ambulette lets you schedule a ride on your own terms, with no broker approval needed. Pay privately by cash, card or insurance where applicable. Same-day service is available, and trained staff assist passengers with mobility needs from the door to the destination.",
+            "provider": {
+              "@id": "https://healthexpressambulette.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "New York City"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Long Island, NY"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://healthexpressambulette.com/services/two-men-assist-over-stairs#service",
+            "name": "Two-Men Assist Over Stairs",
+            "serviceType": "Two-person stair assistance transportation",
+            "url": "https://healthexpressambulette.com/services/two-men-assist-over-stairs",
+            "description": "Many New York City homes and buildings have stairs and no elevator. Our two-person assist service sends two trained team members to help passengers with limited mobility safely over stairs and to the vehicle, then on to their appointment. It is available 24/7 across NYC and Long Island.",
+            "provider": {
+              "@id": "https://healthexpressambulette.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "New York City"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Long Island, NY"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://healthexpressambulette.com/services/medicaid-ambulette-service#service",
+            "name": "Medicaid Ambulette Service",
+            "serviceType": "Medicaid ambulette transportation",
+            "url": "https://healthexpressambulette.com/services/medicaid-ambulette-service",
+            "description": "Health Express Ambulette accepts Medicaid ambulette trips to covered medical appointments in New York City and Long Island. Trip requests can come through ordering channels including MAS, MTM, Ride Health and Sentry, and our dispatch team is available 24/7 to coordinate pickups.",
+            "provider": {
+              "@id": "https://healthexpressambulette.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "New York City"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Long Island, NY"
+              }
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://healthexpressambulette.com/services/wheelchair-handicapped-transportation#service",
+            "name": "Wheelchair & Handicapped Transportation",
+            "serviceType": "Wheelchair accessible transportation",
+            "url": "https://healthexpressambulette.com/services/wheelchair-handicapped-transportation",
+            "description": "Health Express Ambulette provides wheelchair-accessible and handicapped transportation for adults and seniors across New York City and Long Island. Our trained team assists passengers from the door to the vehicle and on to their destination, whether it is a doctor visit, dialysis, a hospital discharge or a facility transfer.",
+            "provider": {
+              "@id": "https://healthexpressambulette.com/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "New York City"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Long Island, NY"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://healthexpressambulette.com/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is an ambulette service?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An ambulette is a specialized vehicle and service for passengers who need mobility help but do not need an ambulance. Health Express Ambulette transports wheelchair, stretcher and ambulatory passengers who need assistance, door to door, to medical appointments, dialysis, hospital discharges and more."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Health Express Ambulette offer wheelchair transportation in NYC?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We provide wheelchair and handicapped transportation across New York City, including Brooklyn, Manhattan, Queens, the Bronx and Staten Island, 24 hours a day, 7 days a week."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you provide stretcher transportation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We offer stretcher transportation for passengers who cannot sit upright for travel. Call 917-514-3080 so dispatch can confirm the right vehicle and level of assistance for your trip."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Health Express Ambulette accept Medicaid?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We accept Medicaid ambulette trips for eligible, approved medical appointments. Trips can be requested through channels including MAS, MTM, Ride Health and Sentry. Coverage and approval are determined by Medicaid and your plan, so call us if you are unsure."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you serve Long Island?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We serve all of New York City and Long Island, including Nassau and Suffolk counties."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What languages do your staff speak?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our staff speak English, Spanish, Russian, Georgian and French, so passengers and families can get help in the language they are most comfortable with. Call 917-514-3080 to arrange your trip."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are you available 24/7 and for same-day trips?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Our dispatch line is open 24/7, and same-day transportation is available depending on vehicle availability. Call 917-514-3080 for the fastest response."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I book a ride?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Call 917-514-3080, text or WhatsApp us, email info@healthexpressambulette.com, or use the online form on our website. Medicaid trips can also be requested through MAS, MTM, Ride Health and Sentry."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What payment methods do you accept?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We accept private pay, Medicaid, insurance, cash and cards."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you help passengers over stairs?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Our two-men assist over stairs service sends two trained team members to help passengers with limited mobility safely over stairs and to the vehicle."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you handle hospital discharge transportation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We transport patients home or to a care facility after a hospital stay, and we coordinate with case managers, social workers and discharge planners."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which places and providers do you transport to and from?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We serve hospitals, emergency rooms and urgent care centers, dialysis, chemotherapy and infusion centers, primary care physicians and neurologists, community health centers and FQHCs, assisted living and nursing homes, adult day care centers, and Veterans Affairs and military health services."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long has Health Express Ambulette been in business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Health Express Ambulette was founded in 2014 and is based at 155 Water Street, Brooklyn, NY 11201."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between an ambulance and an ambulette?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "An ambulance is for medical emergencies and provides emergency medical care during transport. An ambulette is a non-emergency vehicle for passengers who need mobility help, such as a wheelchair, a stretcher or assistance on stairs, to get to scheduled appointments, dialysis or home after discharge. Ambulette staff assist with safe transport and do not provide emergency medical treatment. If someone is having a medical emergency, call 911."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does ambulette service cost in NYC?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The cost depends on the distance, the type of service (wheelchair, stretcher or stairs assistance), the time of day and how the trip is paid for. Eligible, approved Medicaid trips are billed through Medicaid. For private-pay trips, call 917-514-3080 and our dispatch team can go over pricing with you."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Medicare pay for ambulette or non-emergency medical transportation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Original Medicare generally does not cover routine non-emergency rides to appointments. It covers ambulance transportation only when it is medically necessary and any other type of transportation could endanger your health. Some Medicare Advantage plans include transportation benefits, and New York Medicaid may cover ambulette trips for eligible members. Check with your plan, or call 917-514-3080 and we will help you understand your options."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Medicare offer free transportation for seniors?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Original Medicare does not provide free rides to routine appointments. Some seniors have rides covered through a Medicare Advantage plan benefit or through Medicaid if they are eligible. If neither applies, private-pay ambulette is available from Health Express Ambulette, and we accept cash and cards as well as insurance."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What senior transportation options are available in NYC?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Seniors in New York City can use public transit and paratransit services such as Access-A-Ride, Medicaid-covered transportation, transportation benefits from some Medicare Advantage plans, and private ambulette service. Ambulette is the best fit for seniors who need door-to-door help, a wheelchair or stretcher, or assistance on stairs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I hire someone to drive me home after surgery?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Health Express Ambulette provides rides home after surgery, procedures and hospital stays, with assistance from the door to your destination. Some surgical centers require an escort, so ask your facility about its policy, then call 917-514-3080 to schedule. We are available 24/7, and same-day service is offered."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
 
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
