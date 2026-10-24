@@ -108,7 +108,7 @@ const Footer = () => {
         <div className="w-full">
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
           <ul className="space-y-2 text-sm text-gray-300 max-w-full overflow-hidden">
-            <li className="break-words">📞 +1 7-514-3080</li>
+            <li className="break-words">📞 +1 (917)-514-3080</li>
             <li className="break-words">📧 info@healthexpressambulette.com</li>
             <li className="break-words">📍 155 Water Street, Brooklyn NY 11201</li>
           </ul>
