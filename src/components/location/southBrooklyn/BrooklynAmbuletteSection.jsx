@@ -53,12 +53,13 @@ const BrooklynAmbuletteSection = () => {
                 {/* Map */}
                 <div className="w-full h-[400px] md:h-full rounded-3xl overflow-hidden shadow-lg border border-gray-300" data-aos="fade-up">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12075.90903831099!2d-73.9499977!3d40.6781784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a31613d60cf%3A0x3c10b0a7c37b0609!2sBrooklyn%2C%20NY!5e0!3m2!1sen!2sus!4v1615162951111!5m2!1sen!2sus"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.461894318041!2d-73.99014965818375!3d40.70333776171919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae236ed06f%3A0xa1c4b2b8792699be!2sHealth%20Express%20Ambulette!5e1!3m2!1sen!2sin!4v1793077839976!5m2!1sen!2sin"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
                         allowFullScreen=""
                         loading="lazy"
+                        referrerPolicy="strict-origin-when-cross-origin"
                     ></iframe>
                 </div>
             </div>

@@ -34,10 +34,11 @@ const BrooklynMapSection = () => {
                     
                     <iframe
                         title="Ambulette Service Brooklyn"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.669274184156!2d-73.99038492488795!3d40.70328093815083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a33cf5650e5%3A0xe13bb1cfc2daaf59!2s155%20Water%20St%2C%20Brooklyn%2C%20NY%2011201%2C%20USA!5e0!3m2!1sen!2sin!4v1744182862531!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.461894318041!2d-73.99014965818375!3d40.70333776171919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae236ed06f%3A0xa1c4b2b8792699be!2sHealth%20Express%20Ambulette!5e1!3m2!1sen!2sin!4v1793077839976!5m2!1sen!2sin"
                         className="w-full h-[300px] md:h-[350px]"
                         allowFullScreen=""
                         loading="lazy"
+                        referrerPolicy="strict-origin-when-cross-origin"
                     ></iframe>
                 </motion.div>
             </div>

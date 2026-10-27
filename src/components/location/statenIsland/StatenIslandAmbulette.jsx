@@ -50,12 +50,13 @@ const StatenIslandAmbulette = () => {
           <div className="rounded-xl overflow-hidden shadow-sm border border-[#e2e6f0]">
             <iframe
               title="Staten Island Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24152.21134964067!2d-74.15449709719987!3d40.57902116942612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fffd41c4d97%3A0x91c69fbaeb8b3090!2sStaten%20Island%2C%20NY!5e0!3m2!1sen!2sus!4v1614118239273!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.461894318041!2d-73.99014965818375!3d40.70333776171919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae236ed06f%3A0xa1c4b2b8792699be!2sHealth%20Express%20Ambulette!5e1!3m2!1sen!2sin!4v1793077839976!5m2!1sen!2sin"
               width="100%"
               height="320"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
               className="w-full h-[320px]"
             ></iframe>
           </div>

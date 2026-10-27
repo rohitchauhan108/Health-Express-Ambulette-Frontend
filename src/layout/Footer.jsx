@@ -6,11 +6,11 @@ import styles from "../styles/SocialIcons.module.css";
 
 const Footer = () => {
   const links = [
-    { label: "Ambulette Services", url: "/ambulette-services"},
-    { label: "Private Medical Transportation", url: "/private-medical-transportation"},
-    { label: "Two Men Assist Over Stairs", url: "/two-men-assist-over-stairs"},
-    { label: "Medicaid Ambulette Service", url: "/medicaid-ambulette-service"},
-    { label: "Wheelchair Handicapped Transportation", url: "/wheelchair-handicapped-transportation"}
+    { label: "Ambulette Services", url: "/services/ambulette-services"},
+    { label: "Private Medical Transportation", url: "/services/private-medical-transportation"},
+    { label: "Two Men Assist Over Stairs", url: "/services/two-men-assist-over-stairs"},
+    { label: "Medicaid Ambulette Service", url: "/services/medicaid-ambulette-service"},
+    { label: "Wheelchair Handicapped Transportation", url: "/services/wheelchair-handicapped-transportation"}
   ]
   const navigate = useNavigate()
   return (
@@ -74,7 +74,6 @@ const Footer = () => {
           <ul className="space-y-2 text-sm text-gray-300">
             <li><Link to="/" className="hover:text-blue-400">Home</Link></li>
             <li><Link to="/about" className="hover:text-blue-400">About</Link></li>
-            <li><Link to="/services" className="hover:text-blue-400">Services</Link></li>
             <li><Link to="/contact" className="hover:text-blue-400">Contact Us</Link></li>
             <li><Link to="/faq" className="hover:text-blue-400">F.A.Q</Link></li>
             <li><Link to="/driverForm" className="hover:text-blue-400">Apply as Driver</Link></li>
@@ -96,9 +95,7 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">Services</h3>
           <ul className="space-y-2 text-sm text-gray-300">
             { links.map((item)=>(
-              <>
-              <li><Link className="hover:text-blue-400" href={item.url}>{item.label}</Link></li>
-              </>
+              <li key={item.url}><Link className="hover:text-blue-400" to={item.url}>{item.label}</Link></li>
             ))
             }
           </ul>
